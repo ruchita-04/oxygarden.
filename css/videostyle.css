@@ -13,7 +13,7 @@ body{
 	margin:  0;
 	padding: 0;
 	font-family:Century Gothic;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 .logo img{
@@ -26,6 +26,7 @@ body{
 .container{
 	 margin-top: 6rem
 } 
+
 .title{
 	position: absolute;
 	top: 10%;
@@ -33,6 +34,14 @@ body{
 	transform: translate(-50%,-50%);
 }
 .title h1 {
-	font-size: 70px;
+	font-size: 4.375rem;
 
 }
+@media screen and (min-width: 250px) and (max-device-width: 600px) { 
+    /* STYLES HERE */
+	.container{
+		
+		margin-top: 15rem;
+	}
+}
+

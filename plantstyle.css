@@ -35,7 +35,13 @@ body{
 	font-size: 35px;
 }
 .container{
+
 	 margin-top: 7rem ;
+}
+@media (max-width: 431px) {
+  .IndoorPlants {
+   margin-top: 5rem ;
+  }
 }
 .snakeplant{
 	position: relative; top: 220px; left: 400px;

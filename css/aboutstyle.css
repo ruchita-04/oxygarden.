@@ -32,12 +32,20 @@ body{
 	 font-family: Century Gothic;
 	 font-size: 20px;
 
-
 }
+
+
 .logo img{
 	float: left;
 	position: absolute; top: 85px; left: 200px;
 	transform: translate(-80%,-80%);
 	width: 150px;
 	height: 60px;
+}
+@media screen and (min-width: 250px) and (max-device-width: 600px) { 
+    /* STYLES HERE */
+	.container{
+		
+		margin-top: 15rem;
+	}
 }

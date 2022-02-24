@@ -25,7 +25,7 @@ ul li{
 ul li a{
 	text-decoration: none;
 	color: #fff;
-	padding: 5px 20px;
+	padding: 0.313rem 1.25rem;
 	border: 1px solid #fff;
 	transition: 0.6s ease;
 }
@@ -68,7 +68,7 @@ ul li.active a{
 }
 .btn{
 	border: 1px solid #fff;
-	padding: 10px 30px;
+	padding: 0.625rem 1.875rem;
 	color: #fff;
 	text-decoration: none;
 	transition: 0.6s ease;
@@ -79,3 +79,18 @@ ul li.active a{
 	color: #000;
 }
 
+@media screen and (min-width: 250px) and (max-device-width: 600px) { 
+    /* STYLES HERE */
+	.active{
+		
+		margin-top: 8rem;
+	}
+}
+@media screen and (min-width: 250px) and (max-device-width: 600px) { 
+    /* STYLES HERE */
+	.logo{
+		
+		margin-top: 0rem;
+		margin-left: 5rem;
+	}
+}

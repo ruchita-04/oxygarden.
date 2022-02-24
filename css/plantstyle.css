@@ -19,8 +19,8 @@ body{
 
 .logo img{
 	float: left;
-	position: absolute; top: 85px; left: 200px;
-	transform: translate(-80%,-80%);
+	position: absolute; top: 85px; left: 5px;
+	transform: translate(80%,-80%);
 	width: 150px;
 	height: 60px;
 }
@@ -35,8 +35,10 @@ body{
 	font-size: 35px;
 }
 .container{
+
 	 margin-top: 7rem ;
 }
+
 .snakeplant{
 	position: relative; top: 220px; left: 400px;
 	transform: translate(-80%,-80%);
@@ -116,4 +118,11 @@ border: 5px solid #555;
 .shop:hover{
 	background-color: #fff;
 	color: #000;
+}
+@media screen and (min-width: 250px) and (max-device-width: 600px) { 
+    /* STYLES HERE */
+	.container{
+		
+		margin-top: 15rem;
+	}
 }
